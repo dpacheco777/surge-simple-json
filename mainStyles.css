@@ -1,0 +1,106 @@
+body{
+  background:#555;
+}
+
+/* MAIN BANNER */
+.myHeader{
+  background: #222;
+  color: white;
+  margin:auto;
+  padding: 20px;
+  width:auto;
+  text-align: center;
+    font-size: 25px;
+}
+
+.myHeader h1 a {
+  text-decoration:none;
+  color:white;
+  transition: all .3s ease-in-out;
+  border: dashed 10px #003540;
+}
+
+.myHeader h1 a:hover{
+  border:dashed 10px #007088;
+}
+
+/* NAVBAR */
+.myNav {
+  height: auto;
+  background: #999;
+  overflow: hidden;
+  width: auto;
+  margin:auto;
+
+}
+
+.myNav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.myNav ul li {
+  list-style: none;
+  width: auto;
+
+}
+
+.myNav ul li a{
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  color:#003540;
+  transition: all .3s ease-in-out;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.myNav ul li a:hover {
+  color:white;
+  background: #007088;
+}
+
+/* UNIT INFO */
+table, th, td {
+  border:solid 5px #222;
+}
+
+table {
+  width:80%;
+  margin:40px auto;
+  float:left;
+  box-sizing: border-box;
+  color:white;
+}
+
+tr{
+  height:40px;
+  text-align:center;
+}
+th{
+  background:#003540;
+  text-align:center;
+}
+
+p{
+  float:left;
+  width:20%;
+  height:45px;
+  margin:40px 0 0 0;
+  text-align:center;
+  border-top:solid 5px #222;
+  border-bottom:solid 5px #222;
+  box-sizing: border-box;
+  font-size:1.5em;
+  background:#003540;
+  color:white;
+}
+
+.letterScore{
+  width:20%;
+  margin:auto;
+  color:yellow;
+  border-top:0px;
+  height:40px;
+  background:#555;
+}
