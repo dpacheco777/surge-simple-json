@@ -1,0 +1,23 @@
+
+I looked at your code and it’s a good start.
+
+One thing I would suggest is instead of using the HTML document as your source of information, try adding the unit information as an array of objects. Then use javascript to transverse the array of objects and plugging in the data to the appropriate HTML fields. 
+
+For (very quick) example, I’ve added a JSON file and loaded it in. After loading it, I just consoled out the data. This is a very quick example of pulling in JSON data and reading it.
+
+As a front-end developer, you will be doing alot of this sort of thing. Usually, a backend developer will give you an API to call which will return an object of data. Try doing it this way to show employers that you understand pulling in JSON data and can use it populate your HTML document.
+
+Even better would be to build a database and model containing this data, build your own API service, and send JSON data to your view layer. From there, use your view layer to display the data. However this is more work, and it may be better just to include a static JSON file. But it does show a great example of MVC architecture.
+
+In all, I think you are showing a lot of promise! Please let me know if you have any questions.
+
+
+
+
+
+
+
+
+
+
+
