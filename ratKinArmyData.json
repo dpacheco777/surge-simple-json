@@ -1,0 +1,52 @@
+{
+	"alignment": "Evil",
+	"description" : "Add description here.",
+	"units": [
+		{
+			"name" : "Slaves",
+			"stats": {
+				"troop": {
+					"size": 10,
+					"sp": "Above Average",
+					"ma": "Abysmal",
+					"ra":	"",
+					"de": "Abysmal",
+					"at": "Average",
+					"score": 24				
+				},
+				"regiment": {
+					"size": 20,
+					"sp": "Above Average",
+					"ma": "Abysmal",
+					"ra":	"",
+					"de": "Abysmal",
+					"at": "Average",
+					"score": 22				
+				}
+			}
+		},
+		{
+			"name" : "Warriors",
+			"stats": {
+				"troop": {
+					"size": 10,
+					"sp": "Above Average",
+					"ma": "Average",
+					"ra":	"",
+					"de": "Average",
+					"at": "Average",
+					"score": 30				
+				},
+				"regiment": {
+					"size": 20,
+					"sp": "Above Average",
+					"ma": "Average",
+					"ra":	"",
+					"de": "Average",
+					"at": "Average",
+					"score": 30				
+				}
+			}
+		}
+	]
+}

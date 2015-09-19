@@ -1,3 +1,9 @@
+$.getJSON("ratKinArmyData.json", function( data ) {
+  var armyData = data;
+  
+  console.log(armyData);
+});
+
 /* This is the main function for scoring based on the tables of unit data */
 function printScores(unitId){
    for(i=0;i<$("."+unitId+"Score").length;i++){
